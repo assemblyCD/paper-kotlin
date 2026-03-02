@@ -27,11 +27,7 @@ tasks.build {
     )
 }
 
-tasks.jar {
-    archiveClassifier = "jarfile"
-}
-
 tasks.shadowJar {
-    archiveClassifier = ""
+    archiveClassifier = "shadow"
     minimizeJar = false
 }
